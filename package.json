@@ -1,0 +1,23 @@
+{
+  "name": "testingwebservices",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Maqsudbek",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js"
+  },
+  "devDependencies": {
+    "chai": "^6.2.1",
+    "mocha": "^11.7.5"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
+}
